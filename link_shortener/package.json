@@ -1,0 +1,16 @@
+{
+  "name": "link_shortener",
+  "version": "1.0.0",
+  "description": "A simple URL/Link shortener coded under one day for a challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "zedroff",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1"
+  }
+}

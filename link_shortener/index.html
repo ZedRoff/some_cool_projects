@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <title>URL Shortener</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="A simple link/URL shortener coded under one day for a challenge, enjoy it !" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<div id="popup"></div>
+   <form>
+
+    <label>Shortener FORM</label>
+    <input type="text" placeholder="Word" name="word" class="shortener_content" data-info="WORD" id="name_shortener"/>
+    <input type="text" placeholder="Base URL (w/o the https://)" name="url_shortener" class="shortener_content" data-info="BASE URL" id="url_shortener"/>
+    
+
+    <button id="shortener">Submit</button>
+
+    <p id="error_shortener"></p>
+    </form>
+    <form>
+
+        <label>Lenghtener FORM</label>
+        <input type="text" placeholder="Base URL  (the thing right after the last /)" name="url_lengthener" data-info="BASE WORD"  class="lengthener_content" id="url_lengthener"/>
+    
+        <button id="lengthener">Submit</button>
+        <p id="error_lengthener"></p>
+        </form>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
