@@ -14,6 +14,6 @@ Ideas :
 - form creator (kind of like google forms)
 - how to become a better developer page
 - full of easter egg website (something like an adventure)
-- clock
+
 - quizz app
 - math for fun
